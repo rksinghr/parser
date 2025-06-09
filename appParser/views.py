@@ -97,7 +97,7 @@ def download_file_view(request):
     if request.method == "POST":
         status = "Success"  # logic to determine status again (server-side validation)
         if status == "Success":
-            file_path = 'C:\\Users\\DELL\\OneDrive\\Documents\\WebProject\\SDSol\\projectParser\\dataModel.xlsx'
+            file_path = 'home\\ubuntu\\parser\\dataModel.xlsx'
             if os.path.exists(file_path):
                 return FileResponse(open(file_path, 'rb'), as_attachment=True, filename='file.xlsx')
             else:
