@@ -1,0 +1,44 @@
+.sidebar {
+  min-width: 150px;
+}
+.sidebar .nav-link {
+  transition: background 0.3s ease;
+}
+.sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+table td, table th {
+  vertical-align: middle;
+}
+.status-success {
+  background-color: #d4edda !important;
+  color: #155724 !important;
+}
+
+.status-failed {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+}
+
+.status-processing {
+  background-color: #959efc !important;
+  color: #010641 !important;
+}
+
+.status-scheduled {
+  background-color: #e4e4e4 !important;
+  color: #000000 !important;
+}
+
+.status-boxes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.status-box {
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
