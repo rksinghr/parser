@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2>Edit Config</h2>
+    <div class="form-group">
+        <form method="post" action="{% url 'download_file' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            {% comment %} <button class="btn btn-primary" type="submit">Download File</button> {% endcomment %}
+            <button 
+                class="btn btn-primary" 
+                type="submit"
+                {% if status != 'Success' %}disabled{% endif %}>
+                Download File
+            </button>
+            <a href="{% url 'logStatus' %}" type="button" class="btn btn-danger">Cancel</a>
+        </form>
+    </div>
+</div>
+  
+{% endblock %}

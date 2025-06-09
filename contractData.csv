@@ -1,0 +1,21 @@
+﻿id,ContractName,Full Name,File Naming Convention,frequencyid,Schema Name,Object Name,PreProcessor,isActive,createdBy
+1,MAO-4,MAO-004 - Encounter Data Diagnosis Eligible for Risk Adjustment,Hxxxx.MAO00440.Dyymmdd.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_MAO_004,Load CMS MAO004.dtsx,1,1
+2,MAO-2,MAO-002 – Encounter Data Processing Status Report,ENCxxxx.XX.MAO002.FLAT.Dyymm01.Thhmmsst,5,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_MAO_002,Load CMS MAO002.dtsx,1,1
+3,MMR,Monthly Membership Report (MMR) Data File,Hxxxx.MONMEMD.Ryyyymm.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_MMR,Load CMS MMR.dtsx,1,1
+4,Part C MOR,Part C Risk Adjustment Model Output Data File,Hxxxx.HCCMODD.Ryyyymm.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",CMS_HCCMODD_TYPE_J,Load CMS HCCMODD.dtsx,1,1
+5,Part C MOR,Part C Risk Adjustment Model Output Data File,Hxxxx.HCCMODD.Ryyyymm.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",CMS_HCCMODD_TYPE_L,Load CMS HCCMODD.dtsx,1,1
+6,Part C MOR,Part C Risk Adjustment Model Output Data File,Hxxxx.HCCMODD.Ryyyymm.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",CMS_HCCMODD_TYPE_M,Load CMS HCCMODD.dtsx,1,1
+7,Part D MOR,Part D RA Model Output Data File.,Hxxxx.PTDMODD.Ryyyymm.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_MOR_Part_D,Load CMS PTDMODD.dtsx,1,1
+8,HCCMOFD,"RAS Final Yearly Model Output Data File, Part C",Hxxxx.HCCMOFD.Yeeee.Cvvvvv.Thhmmss,6,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",CMS_HCCMOFD_TYPE_J,Load CMS HCCMOFD.dtsx,1,1
+9,HCCMOFD,"RAS Final Yearly Model Output Data File, Part C",Hxxxx.HCCMOFD.Yeeee.Cvvvvv.Thhmmss,6,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",CMS_HCCMOFD_TYPE_L,Load CMS HCCMOFD.dtsx,1,1
+10,HCCMOFD,"RAS Final Yearly Model Output Data File, Part C",Hxxxx.HCCMOFD.Yeeee.Cvvvvv.Thhmmss,6,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",CMS_HCCMOFD_TYPE_M,Load CMS HCCMOFD.dtsx,1,1
+11,PTDMOFD,"RAS Final Yearly Model Output Data File, Part D",Hxxxx.Ryyyymm.PTDMOFD.Dyymm01.Thhmmsst,6,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_PTDMOFD,Load CMS PTDMOFD.dtsx,1,1
+12,DTRR,Daily Transaction Reply Report,Hxxxx.Ryyyymm.DTRRD.Dyymm01.Thhmmsst,3,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_DTRR,Load CMS DTRRD.dtsx,1,1
+13,Agent Broker,Agent Broker Compensation Report Data File,Hxxxx.Ryyyymm.COMPRPT.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_COMPRPT,Load CMS COMPRPT.dtsx,1,1
+14,LIS,LIS/Part D Premium File,Hxxxx.Ryyyymm.LISPRMD.Dyymm01.Thhmmsst,5,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_LIS,Load CMS LIS.dtsx,1,1
+15,LISHIST,LIS History File,Hxxxx.Ryyyymm.LISHIST.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_LISHIST,Load CMS LISHIST.dtsx,1,1
+16,BQN,Response to BEQ Request File,Hxxxx.Ryyyymm.#BQN4.Dyymm01.Thhmmsst,5,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_BQN,Load CMS BQN.dtsx,1,1
+17,MCMD,Medicare Advantage Medicaid Status Data File,Hxxxx.MCMD.Dyymmdd.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_MCMD,Load CMS MCMD.dtsx,1,1
+18,Monthly MSP,Monthly Medicare Secondary Payer (MSP) Information Data File,Hxxxx.Ryyyymm.MSPCOBMA.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_MSP,Load CMS MSPCOBMA.dtsx,1,1
+19,COB–OHI,Coordination of Benefits (COB) – Validated Other Insurer Information (OHI) Data File,Hxxxx.Ryyyymm.MARXCOB.Dyymm01.Thhmmsst,3,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_COB_OHI,Load CMS MARXCOB.dtsx,1,1
+20,FEDF ,Full Enrollment Data File,Hxxxx.FEFD.Ryyyymm.Dyymm01.Thhmmsst,1,"[HealthPlanRegulatory], [HealthPlanRegulatorySensitive]",MA_FEDF,Load CMS FEFD.dtsx,1,1
